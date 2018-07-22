@@ -28,7 +28,7 @@ function prependDriver(){
 }
 
 function removeLastDriver(){
-  drivers.slice(-1);
+  const newDrivers = drivers.slice(-1);
 }
   
 function removeFirstDriver(){
